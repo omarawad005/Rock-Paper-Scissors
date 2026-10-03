@@ -1,122 +1,190 @@
-\# 🪨 Rock Paper Scissors
+# 🪨 Rock Paper Scissors Game
 
+<p align="center">
+  <strong>A simple and fun Rock Paper Scissors console game built with C++</strong>
+</p>
 
+<p align="center">
+  🎮 Player vs Computer &nbsp; | &nbsp; 🏆 Score Tracking &nbsp; | &nbsp; 🎲 Random Choices
+</p>
 
-A simple \*\*Rock Paper Scissors\*\* console game developed using \*\*C++\*\*.
+---
 
+## 📌 About The Project
 
+**Rock Paper Scissors** is a console-based game developed using **C++**.
 
-\## 🎮 About the Game
+The player chooses between **Rock, Paper, and Scissors**, while the computer generates a random choice. The game determines the winner of each round and keeps track of the overall results.
 
+---
 
+## ✨ Features
 
-The player plays against the computer for a selected number of rounds.
+* 🎮 Player vs Computer
+* 🪨 Rock, 📄 Paper, ✂️ Scissors
+* 🎲 Random computer choices
+* 🏆 Round winner detection
+* 📊 Score tracking
+* 🤝 Draw detection
+* 🎨 Console screen colors
+* 🔄 Play Again option
+* 🏁 Final game results
 
+---
 
+## 🛠️ Technologies
 
-In each round:
+<p align="center">
 
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
 
+<img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
 
-\* The player chooses \*\*Rock\*\*, \*\*Paper\*\*, or \*\*Scissors\*\*.
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 
-\* The computer makes a random choice.
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
 
-\* The winner of the round is determined.
+</p>
 
-\* The game keeps track of wins and draws.
+---
 
-\* At the end, the final winner is displayed.
+## 🎮 How The Game Works
 
+The game starts by asking the player to enter the number of rounds.
 
-
-\## 🛠️ Technologies
-
-
-
-\* C++
-
-\* Visual Studio
-
-\* Git \& GitHub
-
-
-
-\## 📂 Project Structure
-
-
+For every round:
 
 ```text
-
-Project\_1\_solve/
-
-│
-
-├── Project\_Number\_1.sln
-
-│
-
-├── Project\_Number\_1/
-
-│   ├── Project\_Number\_1.cpp
-
-│   ├── Project\_Number\_1.vcxproj
-
-│   └── Project\_Number\_1.vcxproj.filters
-
-│
-
-├── .gitignore
-
-└── README.md
-
+Player → Choose Rock / Paper / Scissors
+              ↓
+Computer → Random Choice
+              ↓
+        Compare Choices
+              ↓
+       Determine Winner
+              ↓
+        Update Score
 ```
 
+At the end of all rounds, the game displays the final results.
 
+---
 
-\## ▶️ How to Run
+## 🧠 Game Rules
 
+|    Player   |   Computer  |     Result    |
+| :---------: | :---------: | :-----------: |
+|   🪨 Rock   | ✂️ Scissors |  Player Wins  |
+|   📄 Paper  |   🪨 Rock   |  Player Wins  |
+| ✂️ Scissors |   📄 Paper  |  Player Wins  |
+| Same Choice | Same Choice |      Draw     |
+|  Otherwise  |             | Computer Wins |
 
+---
 
-1\. Clone the repository.
+## 📂 Project Structure
 
-2\. Open `Project\_Number\_1.sln` using Visual Studio.
+```text
+Rock-Paper-Scissors/
+│
+├── 📄 Project_Number_1.sln
+│
+├── 📁 Project_Number_1/
+│   ├── 📄 Project_Number_1.cpp
+│   ├── 📄 Project_Number_1.vcxproj
+│   └── 📄 Project_Number_1.vcxproj.filters
+│
+├── 📄 .gitignore
+└── 📄 README.md
+```
 
-3\. Build the project.
+---
 
-4\. Run the program.
+## ▶️ How To Run
 
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/omarawad005/Rock-Paper-Scissors.git
+```
 
-\## 📌 Features
+### 2. Open the project
 
+Open:
 
+```text
+Project_Number_1.sln
+```
 
-\* Player vs Computer
+using **Visual Studio**.
 
-\* Random computer choices
+### 3. Build & Run
 
-\* Round winner detection
+Build the project and run the application.
 
-\* Score tracking
+---
 
-\* Draw detection
+## 🖥️ Example
 
-\* Play again option
+```text
+Enter Number of Round 1 to 10 : 3
 
-\* Console screen colors
+Round [1] begins :
 
+Your Choice [1]:Rock, [2]:Paper, [3]:Scissors ? 1
 
+__________Round 1_______________
 
-\## 👨‍💻 Author
+Player1 Choice  : Rock
+Computer Choice : Scissors
+Round Winner    : Player 1
+```
 
+---
 
+## 📚 What I Practiced
 
-\*\*Omar Awad\*\*
+This project helped me practice:
 
+* `struct`
+* `enum`
+* Functions
+* References
+* Loops
+* Conditional Statements
+* Random Numbers
+* Input Validation
+* Basic Game Logic
+* Git & GitHub
 
+---
 
-GitHub: \[omarawad005](https://github.com/omarawad005)
+## 🚀 Future Improvements
 
+Some possible improvements:
 
+* Add a graphical user interface
+* Add sound effects
+* Add difficulty levels
+* Add more game statistics
+* Improve the user interface
 
+---
+
+## 👨‍💻 Author
+
+### Omar Awad
+
+<p align="center">
+
+<a href="https://github.com/omarawad005">
+  <img src="https://img.shields.io/badge/GitHub-omarawad005-181717?style=for-the-badge&logo=github">
+</a>
+
+</p>
+
+---
+
+<p align="center">
+  ⭐ If you found this project useful, feel free to star the repository!
+</p>
